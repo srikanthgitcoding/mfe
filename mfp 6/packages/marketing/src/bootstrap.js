@@ -13,6 +13,7 @@ if (process.env.NODE_ENV === "development") {
   const devRoot = document.querySelector("#root");
 
   if (devRoot) {
+    //tests
     mount(devRoot);
   }
 }
